@@ -1,13 +1,34 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.card{
+   background-color: antiquewhite;
+   width: 450px;
+   height: 700px;
+   border-radius: 10px;  
+   margin: 0 auto;
+   border:4px solid black;
+}
+.image{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.contexte{
+    text-align: center;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.my-skill {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  justify-content: center;
+  padding: 10px;
+}
+
+.skill-badge {
+  padding: 4px 8px;
+  border-radius: 25px;
+  font-weight: 600;
+  border: 2px solid black;
+  cursor: pointer;
+  font-size: 10px;
 }
