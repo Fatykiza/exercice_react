@@ -1,14 +1,9 @@
-import Card from "./card";
-import Description from "./description";
-import SkillsList from "./skills";
+import Card from "./Card";
 
 function App(){
     return(
     <div className="card">
-     <Card>
-     <Description/>
-     <SkillsList/>
-     </Card>
+       <Card />
     </div>
     );
 }

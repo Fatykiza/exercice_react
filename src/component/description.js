@@ -1,10 +1,10 @@
-function Description(){
-    const nom="Mercedes"
+function Description({card}){
     return(
-        <div className="contexte">
-            <h2>{nom}</h2>
-            <p>{nom} Une bonne voiture de qualite</p>
+        <div>
+            <h1>{card.nom}</h1>
+            <p>{card.nom} {card.description}</p>
         </div>
-    );
+    )
 }
 export default Description;
+
